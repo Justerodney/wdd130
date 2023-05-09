@@ -70,3 +70,6 @@ footer {
 aside {
     position: relative;
 }
+aside h2 {
+    position: absolute;
+}
