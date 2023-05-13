@@ -1,4 +1,5 @@
-@import url(https://coolors.co/20bf55-0b4f6c-01baef-fbfbff-757575);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Playfair+Display&display=swap');
+
 
 :root {
     --primary-color: #fbfbff;
@@ -6,24 +7,56 @@
     --accent1-color: #0b4f6c;
     --accent2-color: #20BF55;
 
-    --heading-font:'Pacofico', serif;
-    --paragraph-font:'Not serif Google', serif;
+    --heading-font:'Fira Sans', sans-serif;
+    --paragraph-font:'Playfair Display', serif;
 
     --nav-background-color: #20bf55;
     --nav-link-color: #0b4f6c;
     --nav-hover-link-color: #20bf20;
     --nav-hover-background-color: #01baef;
 }
-header {
-    padding: 20px;
-    background:var(--accent1-color);
+body {
+    width:900px;
 }
-h1, article {
+.hero {
+    width: 100%;
+    position: relative;
+}
+article {
+    position: absolute;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p {
+font-family: var(--paragraph-font);
+color: #000;
+}
+a {
+    text-decoration: none;
+}
+h1{
+
+}
+
+article {
     position: absolute;
     top: 140px;
     left:0;
     right:0;
-    color:#ffff;
+    color:#483c3c;
+    background-color: rgba(255, 255, 255, .60);
+    margin: 2rem;
+    padding: 1rem;
+}
+h1 {
+    position: absolute;
+    top: 40px;
+    left:0;
+    right:0;
+    color: #ffff;
+    text-align: center;
 }
 .hero img {
     display: block;
@@ -32,4 +65,11 @@ h1, article {
 }
 .hero {
     position: relative;
+}
+.hero article img {
+    width: 200px;
+    float: right; 
+}
+article {
+
 }

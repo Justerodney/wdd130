@@ -1,12 +1,14 @@
-@import url(https://coolors.co/20bf55-0b4f6c-01baef-fbfbff-757575);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Playfair+Display&display=swap');
+
+
 :root {
     --primary-color: #fbfbff;
     --secondary-color: #01baef;
     --accent1-color: #0b4f6c;
     --accent2-color: #20BF55;
 
-    --heading-font:'Pacofico', serif;
-    --paragraph-font:'Not serif Google', serif;
+    --heading-font:'Fira Sans', sans-serif;
+    --paragraph-font:'Playfair Display', serif;
 
     --nav-background-color: #20bf55;
     --nav-link-color: #0b4f6c;
