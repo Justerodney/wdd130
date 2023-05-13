@@ -1,0 +1,35 @@
+@import url(https://coolors.co/20bf55-0b4f6c-01baef-fbfbff-757575);
+
+:root {
+    --primary-color: #fbfbff;
+    --secondary-color: #01baef;
+    --accent1-color: #0b4f6c;
+    --accent2-color: #20BF55;
+
+    --heading-font:'Pacofico', serif;
+    --paragraph-font:'Not serif Google', serif;
+
+    --nav-background-color: #20bf55;
+    --nav-link-color: #0b4f6c;
+    --nav-hover-link-color: #20bf20;
+    --nav-hover-background-color: #01baef;
+}
+header {
+    padding: 20px;
+    background:var(--accent1-color);
+}
+h1, article {
+    position: absolute;
+    top: 140px;
+    left:0;
+    right:0;
+    color:#ffff;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero {
+    position: relative;
+}
