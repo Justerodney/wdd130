@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-p {
+article h2 {
 font-family: var(--paragraph-font);
 color: #000;
 }
@@ -65,4 +65,113 @@ h1 {
 .hero article img {
     width: 200px;
     float: right; 
+}
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-content: center;
+    border-bottom: 2px solid #ccc;
+    max-width: 1000px;
+}
+nav {
+    text-align: right;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+}
+nav li {
+    flex: 1 1 100%;
+}
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 300px;
+    height: auto;
+}
+.history {
+    display: grid;
+    align-items: center;
+}
+
+.history img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
+.history section {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25% 50%;
+    padding: 10px;
+}
+.adventure {
+    max-width: 840px;
+}
+.adventure img {
+    grid-row: 2;
+    width: 170px;
+    height: 150px;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+.adventure h2 {
+    color: #000;
+    grid-column: 3 / 5;
+    justify-content: center;
+    align-content: center;
+}
+footer {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+.anchor {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: end;
+    text-align: right;
+    padding: 10px;
+}
+/*figure {
+    display: flex;
+    flex-flow: column;
+    padding:5px;
+    max-width: 220px;
+    margin:auto;
+    align-items: center;
+    justify-content: space-around;
+}
+figure img {
+    max-width: 220px;
+    max-height: 150px;
+    flex: 200px;
+}
+figcaption {
+    background: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
